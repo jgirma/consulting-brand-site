@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { useInView } from "react-intersection-observer"
 import { motion, useAnimation } from "framer-motion"
 
-const Perk = ({ img, alt, title, content }) => {
+const Perk = ({ img, alt, title, content1, content2 }) => {
   const controls = useAnimation()
   const [ref, inView] = useInView({
     // Percentage of item in view to trigger animation
@@ -28,9 +28,10 @@ const Perk = ({ img, alt, title, content }) => {
     >
       <PerkWrapper className="perk">
         <img src={img} alt={alt} />
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <ul>
-        <li>{content}</li>
+        <li>{content1}</li>
+        {content2 && <li>{content2}</li>}
         </ul>
       </PerkWrapper>
     </motion.div>

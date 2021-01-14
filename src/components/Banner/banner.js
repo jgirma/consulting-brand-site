@@ -38,7 +38,7 @@ const Banner = ({id}) => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            <span>Let there be Light</span>
+            <span>Bring your dreams to life.</span>
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -46,7 +46,7 @@ const Banner = ({id}) => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Consulting with the goal of bringing your business, investment and marketing dreams to life.
+            Expert Advice and financial consulting.
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
             <span className="sr-only">Jump to about</span>

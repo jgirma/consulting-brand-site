@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import links from "../../constants/links"
 import styled from "styled-components"
-import Logo from "../../images/gen-full-logo.svg"
+import Logo from "../../images/successlink-logo-black.svg"
 import { Link, animateScroll as scroll } from "react-scroll"
 
 const Navbar = () => {
@@ -13,8 +13,13 @@ const Navbar = () => {
   return (
     <NavWrapper>
       <div className="masthead flex-container">
-        <Link to="banner" smooth={true} duration={500}>
-          <a><img src={Logo} alt="Genesis Logo" /></a>
+        <Link 
+        to="banner" 
+        smooth={true} 
+        duration={500} 
+        spy={true}
+        smooth={true}>
+          <img src={Logo} alt="SuccessLink Logo" />
         </Link>
         <button
           className={
@@ -73,14 +78,14 @@ const NavWrapper = styled.nav`
     justify-content: space-between;
 
     img {
-      width: 150px;
+      width: 50px;
 
       @media (min-width: 768px) {
-        width: 180px;
+        width: 80px;
       }
 
       @media (min-width: 1200px) {
-        width: 260px;
+        width: 220px;
       }
     }
   }

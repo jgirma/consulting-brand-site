@@ -7,8 +7,6 @@ import TextBlockImg from "../components/TextBlockImg/textBlockImg"
 import ValuesBlockImg from "../components/TextBlockImg/valuesBlockImg"
 import Perk from "../components/Perk/perk"
 import Button from "../components/Button/button"
-import Packages from "../components/Packages/packages"
-import Package from "../components/Package/package"
 import Contact from "../components/Contact/contact"
 import { Link } from "react-scroll"
 
@@ -46,19 +44,20 @@ We focus on investment, small business, and organization leadership  consultancy
             img={perk1Img}
             alt="Small Business Consulting"
             title="Small Business Consulting"
-            content="Consulting to help get your small business running or get it to the next level."
+            content1="Consulting to help get your small business running or get it to the next level."
           />
           <Perk
             img={perk2Img}
             alt="Great savings to be made"
             title="Leadership & Management Consulting"
-            content="Empower you to lead your company well. Effective marketing advice to grow your business."
+            content1="Empower you to lead your company well."
+            content2="Effective marketing advice to grow your business."
           />
           <Perk
             img={perk3Img}
             alt="Asset and Financial Management"
             title="Asset & Financial Management"
-            content="Guiding you to financial freedom through customized investment advice to grow your savings."
+            content1="Guiding you to financial freedom through customized investment advice to grow your savings."
           />
         </div>
       </TextBlockImg>

@@ -9,7 +9,7 @@ const Contact = ({ title, subtitle, id }) => {
         <h1>{title}</h1>
         <p>{subtitle}</p>
 
-      <p>Call us: <a href="tel: +14038509301">(403) 681-9732</a></p>
+      <p>Call us: <a href="tel: +14036819732">(403) 681-9732</a></p>
 
 
         <h3>Send us an email:</h3>

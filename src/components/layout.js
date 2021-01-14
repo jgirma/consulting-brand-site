@@ -6,14 +6,14 @@ import Navbar from "../components/Navbar/navbar"
 import Footer from "../components/Footer/footer"
 import SEO from "../components/Seo/seo"
 import "fontsource-courier-prime"
-import "fontsource-ibm-plex-sans"
+import "fontsource-alegreya-sans"
 import "../images/favicon.png"
 
 const Layout = ({ children }) => {
   return (
     <LayoutWrapper>
       <SEO
-      title="Genesis Consulting"
+      title="SuccessLink Consulting"
       description="Empowering Your Financial Freedom"
        />
       <Navbar />
@@ -28,16 +28,17 @@ const LayoutWrapper = styled.div`
     box-sizing: border-box;
   }
 
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   color: #006635;
   /* background-color: #060c21; */
   background: linear-gradient(45deg, #C2E1C2, #006635);
   h1{
-    font-family: "Courier Prime" , serif;
+    font-family: "Acumin Pro", serif;
+    font-weight: bold;
   }
 
   h2{
-    font-family: "Courier Prime" , sans-serif;
+    font-family: "Acumin Pro" , sans-serif;
   }
   h1,
   h2,

@@ -23,7 +23,7 @@ const TextBlockImg = ({ title, children, subtitle, id }) => {
     >
       <TextBlockImgWrapper>
         <div className="content-container">
-          <h2>{title}</h2>
+          <h1>{title}</h1>
           <p>{subtitle}</p>
           {children}
         </div>
