@@ -15,8 +15,6 @@ import perk2Img from "../images/leadership.svg"
 import perk3Img from "../images/wallet.svg"
 import phone from "../images/phone.png"
 
-import { IconContext } from "react-icons"
-import { MdDone, MdClear } from "react-icons/md"
 
 export default () => (
   <>

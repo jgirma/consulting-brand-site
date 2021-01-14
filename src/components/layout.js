@@ -7,7 +7,6 @@ import Footer from "../components/Footer/footer"
 import SEO from "../components/Seo/seo"
 import "fontsource-courier-prime"
 import "fontsource-alegreya-sans"
-import "../images/favicon.png"
 
 const Layout = ({ children }) => {
   return (

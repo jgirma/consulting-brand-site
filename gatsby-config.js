@@ -12,7 +12,7 @@ module.exports = {
     titleTemplate: "%s | Empowering Financial Freedom",
     description: "SuccessLink Consulting. Here to empower you to achieve financial freedom. Based in Calgary, Canada.",
     author: "Jonathan Girma",
-    image: "/favicon.png",
+    image: "static/favicon.png",
     siteUrl: "https://www.jonathangirma.com",
     twitterUsername: "@twitter",
   },
