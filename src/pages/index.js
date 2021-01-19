@@ -23,11 +23,10 @@ export default () => (
       <TextBlock
         id="about"
         title="Empowering your Financial Freedom"
-        paragraph="From tackling personal decisions to reaching important milestones, our job is to guide you on the path of success. We are  fueled by our commitment to excellence and go the extra mile to make sure clients are fully satisfied with my work.
-As a professional Financial Consultant, we believe in maintaining a positive mindset, creating partnerships with a purpose, and always striving for significant outcomes. Contact us today for an initial consultation, and find out more about how I can tailor my services to your needs.
-We focus on investment, small business, and organization leadership  consultancy."
-        paragraphAm="ዓላማችን ሰዎችን ስኬታማ ማድረግ ነዉ ።
-        የምክርና የስልጠና  ኣገልጎሎታችን ለማደግና ለመስፋት ለሚፈልጉ ሁሉ የተዘጋጀ ነው ።"
+        paragraph="From tackling personal decisions to reaching important milestones, our goal is to guide you to success. We are fueled by a commitment to excellence and will go the extra mile to make sure our clients are fully satisfied.
+We believe in maintaining a positive mindset, creating partnerships with a purpose, and always striving for excellence. Contact us today for an initial consultation, and find out more about how we can tailor our services to meet your needs.
+"
+        paragraphAm="ዓላማችን ሰዎችን ስኬታማ ማድረግ ነዉ ። የምክርና የስልጠና ኣገልጎሎታችን ለማደግና ለመስፋት ለሚፈልጉ ሁሉ የተዘጋጀ ነው ።"
       >
         <Link to="contact" smooth={true} duration={500}>
           <Button label="Get Connected" cta="Get Connected" />
@@ -40,30 +39,39 @@ We focus on investment, small business, and organization leadership  consultancy
         <div className="flex-container trio-block">
           <Perk
             img={perk1Img}
-            alt="Small Business Consulting"
-            title="Small Business Consulting"
-            content1="Consulting to help get your small business running or get it to the next level."
+            alt="Business Consulting"
+            title="Business Consulting"
+            content1="Expert advice, training and customized strategy development"
+            content2="Business plan accounting and marketing to improve your profitability"
+            content3="Strengthen your business through manpower development and building a foundation of accountability"
           />
           <Perk
             img={perk2Img}
             alt="Great savings to be made"
             title="Leadership & Management Consulting"
-            content1="Empower you to lead your company well."
-            content2="Effective marketing advice to grow your business."
+            content1="Empower you to lead your company well"
+            content2="Effective marketing leadership development to grow your business"
+            content3="Well structured training and coaching services to manage your business efficiently"
           />
           <Perk
             img={perk3Img}
-            alt="Asset and Financial Management"
-            title="Asset & Financial Management"
-            content1="Guiding you to financial freedom through customized investment advice to grow your savings."
+            alt="Personal Financial Management"
+            title="Personal Financial Management"
+            content1="Guiding you to financial freedom through customized investment advice to grow your savings"
+            content2="Quality financial advice to help you achieve both short and long term goals"
+            content3="Regular check-ins to re-evaluate our plan based on your current financial situation"
+            content4="Guide you to borrowing and lending practices that will benefit you not the banks"
           />
         </div>
+        <Link to="contact" smooth={true} duration={500}>
+          <Button label="Book your first consultation" cta="Book your first consultation" />
+        </Link>
       </TextBlockImg>
       <ValuesBlockImg id="values">
       <ValuesBlock id="values"
       titleEn="Consulting With Purpose"
       titleAm="ዓላማችን ሰዎችን ስኬታማ ማድረግ ነዉ ።"
-        paragraph="Projects can be challenging; We are  here to lighten the load off your shoulders.  We are honest and positive professionals whose first priority is always the interests of our clients; providing capability, adaptability, and scalability. Since 2000,we been serving loyal clients in Canada - get in touch to start enjoying my services today."
+        paragraph="Projects can be challenging; We are  here to lighten the load off your shoulders.  We are honest and positive professionals whose first priority is always the interests of our clients; providing capability, adaptability, and scalability. Whether you are already well established or just starting out, we want to help you reach your goals."
         children="Our work is not only about finance it’s about having purposeful life.
 We believe your financial success allows you to do more to yourself, your family, community and your country.
 We believe your financial freedom is connected to other different life factors and stages. We connect all

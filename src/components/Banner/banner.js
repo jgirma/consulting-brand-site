@@ -46,7 +46,7 @@ const Banner = ({id}) => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Expert Advice and financial consulting.
+            SuccessLink exists as the missing piece between you and all your financial goals. Whether you have a well established business or you simply want to better manage your personal finances, We can help.
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
             <span className="sr-only">Jump to about</span>

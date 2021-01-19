@@ -1,3 +1,3 @@
-# Website build for Girma Lulu Consulting (Logo/ Brand name still undecided)
+# Website build for Girma Lulu Consulting (SuccessLink)
 
-TODO: Update descriptions
+LIVE site using netlify
