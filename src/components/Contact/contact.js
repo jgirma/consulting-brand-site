@@ -4,8 +4,9 @@ import Button from "../Button/button"
 
 const Contact = ({ title, subtitle, id }) => {
   return (
+    <div id={id}>
     <ContactWrapper>
-      <div className="content-container" id="contact">
+      <div className="content-container">
         <h1>{title}</h1>
         <p>{subtitle}</p>
 
@@ -13,7 +14,7 @@ const Contact = ({ title, subtitle, id }) => {
 
 
         <h3>Send us an email:</h3>
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" data-netlify="true">
           <div className="input-area">
             <input
               type="text"
@@ -60,6 +61,7 @@ const Contact = ({ title, subtitle, id }) => {
         </form>
       </div>
     </ContactWrapper>
+    </div>
   )
 }
 

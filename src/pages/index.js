@@ -82,15 +82,13 @@ We believe on giving and savings after making and spending your money."
       </ValuesBlock>
       </ValuesBlockImg>
       </div>
-      <div id="contact">
       <Contact
-        
+        id="contact"
         title="Contact Us"
         subtitle="Getting closer to your financial dreams is a message away."
         img={phone}
         alt="phone-icon"
       />
-      </div>
     </Layout>
   </>
 )
