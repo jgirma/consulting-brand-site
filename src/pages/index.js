@@ -67,8 +67,9 @@ We believe in maintaining a positive mindset, creating partnerships with a purpo
           <Button label="Book your first consultation" cta="Book your first consultation" />
         </Link>
       </TextBlockImg>
-      <ValuesBlockImg id="values">
-      <ValuesBlock id="values"
+      <div id="values">
+      <ValuesBlockImg>
+      <ValuesBlock 
       titleEn="Consulting With Purpose"
       titleAm="ዓላማችን ሰዎችን ስኬታማ ማድረግ ነዉ ።"
         paragraph="Projects can be challenging; We are  here to lighten the load off your shoulders.  We are honest and positive professionals whose first priority is always the interests of our clients; providing capability, adaptability, and scalability. Whether you are already well established or just starting out, we want to help you reach your goals."
@@ -80,13 +81,16 @@ We believe on giving and savings after making and spending your money."
       >
       </ValuesBlock>
       </ValuesBlockImg>
+      </div>
+      <div id="contact">
       <Contact
-        id="contact"
+        
         title="Contact Us"
         subtitle="Getting closer to your financial dreams is a message away."
         img={phone}
         alt="phone-icon"
       />
+      </div>
     </Layout>
   </>
 )
