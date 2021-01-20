@@ -13,7 +13,7 @@ const Contact = ({ title, subtitle, id }) => {
 
 
         <h3>Send us an email:</h3>
-        <form name="contact" netlify>
+        <form name="contact" method="POST" netlify>
           <div className="input-area">
             <input
               type="text"
