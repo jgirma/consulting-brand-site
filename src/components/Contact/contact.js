@@ -14,7 +14,9 @@ const Contact = ({ title, subtitle, id }) => {
 
 
         <h3>Send us an email:</h3>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
           <div className="input-area">
             <input
               type="text"
