@@ -72,12 +72,11 @@ We believe in maintaining a positive mindset, creating partnerships with a purpo
       <ValuesBlock 
       titleEn="Consulting With Purpose"
       titleAm="ዓላማችን ሰዎችን ስኬታማ ማድረግ ነዉ ።"
-        paragraph="Projects can be challenging; We are  here to lighten the load off your shoulders.  We are honest and positive professionals whose first priority is always the interests of our clients; providing capability, adaptability, and scalability. Whether you are already well established or just starting out, we want to help you reach your goals."
-        children="Our work is not only about finance it’s about having purposeful life.
-We believe your financial success allows you to do more to yourself, your family, community and your country.
-We believe your financial freedom is connected to other different life factors and stages. We connect all
-factors to make success.
-We believe on giving and savings after making and spending your money."
+        paragraph="Projects can be challenging; We are  here to lighten the load off of your shoulders.  We are honest and positive professionals whose first priority is always the interests of our clients; striving to provide capability, adaptability, and scalability. Whether you are already well established or just starting out, we want to help you reach your goals."
+        children="Our work is not only about finance it’s about having a life filled with purpose.
+We believe your financial success allows you to do more for yourself, your family, and your community.
+Financial Freedom is heavily influenced by your current and future life stages. We connect all
+the necessary factors to lead to success."
       >
       </ValuesBlock>
       </ValuesBlockImg>

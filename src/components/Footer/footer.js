@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <div className="credit">
-      <p>© Genesis Consulting. All Rights Reserved.</p>
+      <p>© SuccessLink Inc. All Rights Reserved.</p>
         Designed & developed by{" "}
         <a
           href="http://www.jonathangirma.com"
@@ -39,6 +39,10 @@ const FooterWrapper = styled.footer`
   .credit {
     font-size: 0.85rem;
     margin-bottom: 0.5rem;
+
+    p{
+      font-size: 1rem;
+    }
 
     a {
       padding: 0;
