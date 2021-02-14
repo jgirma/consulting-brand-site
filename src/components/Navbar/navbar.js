@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import links from "../../constants/links"
 import styled from "styled-components"
-import Logo from "../../images/successlink-logo-black.svg"
+import Logo from "../../images/successlink-logo-black.png"
 import { Link, animateScroll as scroll } from "react-scroll"
 
 const Navbar = () => {
