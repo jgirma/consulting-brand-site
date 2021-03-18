@@ -26,7 +26,7 @@ const Perk = ({ img, alt, title, content1, content2, content3, content4 }) => {
       }}
       transition={{ ease: "easeOut", duration: 1.25, delay: 0.35 }}
     >
-      <PerkWrapper className="perk section-padding">
+      <PerkWrapper className="perk">
         <img src={img} alt={alt} />
         <h2>{title}</h2>
         <ul>
