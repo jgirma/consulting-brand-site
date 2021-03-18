@@ -26,7 +26,7 @@ const Perk = ({ img, alt, title, content1, content2, content3, content4 }) => {
       }}
       transition={{ ease: "easeOut", duration: 1.25, delay: 0.35 }}
     >
-      <PerkWrapper className="perk">
+      <PerkWrapper className="perk section-padding">
         <img src={img} alt={alt} />
         <h2>{title}</h2>
         <ul>
@@ -50,7 +50,7 @@ const PerkWrapper = styled.article`
     width: 100%;
 
     @media (min-width: 992px) {
-      padding: 0 1.75rem;
+      padding: 0 1.75em;
     }
   }
   li {

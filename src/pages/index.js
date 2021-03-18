@@ -53,7 +53,7 @@ We believe in maintaining a positive mindset, creating partnerships with a purpo
             content2="Effective marketing leadership development to grow your business"
             content3="Well structured training and coaching services to manage your business efficiently"
           />
-          <Perk
+          {/* <Perk
             img={perk3Img}
             alt="Personal Financial Management"
             title="Personal Financial Management"
@@ -61,7 +61,7 @@ We believe in maintaining a positive mindset, creating partnerships with a purpo
             content2="Quality financial advice to help you achieve both short and long term goals"
             content3="Regular check-ins to re-evaluate our plan based on your current financial situation"
             content4="Guide you to borrowing and lending practices that will benefit you not the banks"
-          />
+          /> */}
         </div>
         <Link to="contact" smooth={true} duration={500}>
           <Button label="Book your first consultation" cta="Book your first consultation" />
